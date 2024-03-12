@@ -1,0 +1,100 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hii", "hello", "what's up", "hi", "helo"],
+      "responces": ["hello", "hi there", "how can I help you ?"]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "good bye"],
+      "responces": ["bye", "see you"]
+    },
+
+    {
+      "tag": "best deals of the day",
+      "patterns": [
+        "what are the offers today",
+        "suggest me the best deal of today",
+        "show me the deal of the day",
+        "best deals"
+      ],
+      "responces": [
+        "50% offer on groceries",
+        "15% offer on home appliances",
+        "10% offer on fashion",
+        "17% offer on beauty products"
+      ]
+    },
+
+    {
+      "tag": "route map of the theatre",
+      "patterns": ["where can i find the theatre", "theatre"],
+      "responces": ["it's on the third floor beside pizza shop"]
+    },
+
+    {
+      "tag": "route map of jewellery shop",
+      "patterns": [
+        "where is the jewellery shop",
+        "jewellery shop",
+        "jewellery"
+      ],
+      "responces": [
+        "it's on the 4th floor beside MC Donalds",
+        "on the 4th floor beside MC Donalds"
+      ]
+    },
+
+    {
+      "tag": "route map of pizza shop",
+      "patterns": [
+        "where is the pizza shop",
+        "pizza shop",
+        "pizza",
+        "pizza hut"
+      ],
+      "responces": [
+        "it's on the 2nd floor beside 'sangeetha mobiles'",
+        "on the 2nd floor beside 'sangeetha mobiles'"
+      ]
+    },
+
+    {
+      "tag": "route map of icecream shop",
+      "patterns": [
+        "where is the icecream shop",
+        "ice-cream shop",
+        "icecream",
+        "icecream shop"
+      ],
+      "responces": [
+        "it's on the 2nd floor beside kid's world",
+        "on the 2nd floor beside kid's playing world"
+      ]
+    },
+
+    {
+      "tag": "route map of fashion things",
+      "patterns": [
+        "where is the fashion shop",
+        "fashion shop",
+        "clothings",
+        "dresses",
+        "fashion",
+        "clothes"
+      ],
+      "responces": ["Entire 3rd floor belongs to fashion and clothings"]
+    },
+
+    {
+      "tag": "route map of accessories",
+      "patterns": ["where is the mobile shop", "mobile store", "mobiles"],
+      "responces": [
+        "it's on the 5th floor ",
+        "entire 5th floor belongs to mobiles and gadjets"
+      ]
+    }
+  ]
+}
